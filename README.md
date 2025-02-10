@@ -1,7 +1,7 @@
  <div align="center" style="border:none;">
     <a href="https://syedomair.github.io" target="_blank"><img alt="Guy working hard!" src="https://raw.github.com/syedomair/syedomair/master/images/githubOverview.png"></a>
     <br>
-    <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=syedomair.syedomair" />
+    <img align="center" src="https://visitor-badge.laobi.icu/badge?page_id=syedomair.syedomair" />
 </div>
 ## Syed Omair 👋
 
