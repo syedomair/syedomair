@@ -3,6 +3,10 @@
     <br>
     <img align="center" src="https://visitor-badge.laobi.icu/badge?page_id=syedomair.syedomair" />
 </div>
+<h1 align="center" style="border: none;">Syed Omair/h1>
+<h1 align="center" style="border: none;">Golang / Full Stack Developer</h1>
+<hr>
+<br>
 ## Syed Omair 👋
 
 <!--
