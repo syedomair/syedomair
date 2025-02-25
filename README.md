@@ -10,7 +10,7 @@
 
 👋 Hi, I'm Syed Omair, a passionate Full Stack Developer with over two decades of experience in building scalable and efficient applications. I specialize in backend development with Golang, crafting high-performance microservices, and leveraging modern cloud-native architectures.
 
-🚀 What I Do:
+🚀 What I Do:<br/>
 ✅ Golang Expertise – Implementing clean architectures with dependency injection.<br/>
 ✅ High-Performance Concurrency – Utilizing goroutines and channels for efficient parallel processing.<br/>
 ✅ Robust Backend Development – Building APIs with chi, structured logging with zap, and seamless database interactions with GORM & PostgreSQL.<br/>
