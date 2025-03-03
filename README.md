@@ -28,8 +28,8 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 
 **🚀 Key Expertise:**
 * **Golang Backend Development:** Proven track record in building scalable microservices with clean architectures, dependency injection, and high concurrency.
-    [Golang Concurrency Example](https://github.com/syedomair/backend-microservices/blob/main/service/user_service/user/handler.go#L60)
-    [Golang Dependency Injection Example](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go)
+    * [Golang Concurrency Example](https://github.com/syedomair/backend-microservices/blob/main/service/user_service/user/handler.go#L60)
+    * [Golang Dependency Injection Example](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go)
 
 * **ReactJS + Redux Frontend Development:** Expertise in crafting responsive, modular, and maintainable frontend applications.
 * **Concurrency & Performance Optimization:** Skilled in leveraging goroutines, channels, and pprof profiling to build high-performance systems.
