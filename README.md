@@ -50,16 +50,16 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
     * Utilized in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to manage logging, database connections, and environment variables.
     * Promotes modularity and flexibility by injecting dependencies into a central container.
 * **Singleton Pattern:**
-    * Implemented in `lib/container/db.go` through synchronized lazy initialization (`sync.Mutex` + instance check) in `PostgresAdapter` and `MySQLAdapter`.
+    * Implemented in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) through synchronized lazy initialization (`sync.Mutex` + instance check) in `PostgresAdapter` and `MySQLAdapter`.
     * Ensures only one database connection instance is created per adapter while maintaining thread safety.
 * **Adapter Pattern:**
-    * Used in `lib/container/db.go` to create a unified database interface (`Db`) with concrete implementations (`PostgresAdapter` and `MySQLAdapter`).
+    * Used in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to create a unified database interface (`Db`) with concrete implementations (`PostgresAdapter` and `MySQLAdapter`).
     * Enables seamless switching between database providers without modifying client code.
 * **Factory Pattern:**
     * Utilized in `lib/container/db.go` through the `NewDBConnectionAdapter` function.
     * Acts as a factory method to create instances of different database adapters based on the specified database type, encapsulating object creation logic.
 * **External Configuration Pattern:**
-    * Utilized in `lib/container/container.go` to manage and validate essential configuration through environment variables.
+    * Utilized in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to manage and validate essential configuration through environment variables.
     * Ensures centralized and type-safe access to settings, promoting flexibility and ease of deployment.
 * **Decorator Pattern:**
     * Utilized in `lib/response/response.go` to dynamically add behaviors to response handlers.
@@ -68,7 +68,7 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
     * Utilized in `lib/router/router.go` to chain multiple handlers that add functionalities like logging, request ID management, and Prometheus metrics collection.
     * Enhances the HTTP request processing pipeline with modular and reusable components.
 * **Object Pool Pattern:**
-    * Implemented in `lib/container/connection.go` to manage a pool of reusable gRPC client connections.
+    * Implemented in [lib/container/connection.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/connection.go) to manage a pool of reusable gRPC client connections.
     * Optimizes resource usage and improves performance by reducing the overhead of repeatedly creating and destroying connections.
 
 **📚 Featured Post on dev.to:**
