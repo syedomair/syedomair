@@ -44,10 +44,10 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 
 **Design Patterns & Architectural Expertise**
 * **Concurrency Pattern:**
-    * Utilized in `service/user_service/user/user_service` to execute multiple database queries and gRPC calls concurrently using Go's `errgroup`.
+    * Utilized in [service/user_service/user/user_service](https://github.com/syedomair/backend-microservices/blob/main/service/user_service/user/user_service.go) to execute multiple database queries and gRPC calls concurrently using Go's `errgroup`.
     * Enhances the performance of the `GetAllUserStatistics` method by leveraging parallel processing.
 * **Dependency Injection Pattern:**
-    * Utilized in `lib/container/container.go` to manage logging, database connections, and environment variables.
+    * Utilized in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to manage logging, database connections, and environment variables.
     * Promotes modularity and flexibility by injecting dependencies into a central container.
 * **Singleton Pattern:**
     * Implemented in `lib/container/db.go` through synchronized lazy initialization (`sync.Mutex` + instance check) in `PostgresAdapter` and `MySQLAdapter`.
@@ -77,6 +77,8 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 * [Using a Reverse Proxy to Expose Multiple Microservices Through a Single Port in Docker Compose](https://dev.to/syed_omair/using-a-reverse-proxy-to-expose-multiple-microservices-through-a-single-port-in-docker-compose-4h9e)
 * [How to Deploy a Container from GitHub to AWS ECR and ECS through OIDC](https://dev.to/syed_omair/how-to-deploy-a-container-from-github-to-aws-ecr-through-oidc-2ma5)
 * [Understanding Dependency Injection Through a Practical Golang Example](https://dev.to/syed_omair/understanding-dependency-injection-through-a-practical-golang-example-4b3k)
+* [The Hidden Costs of Inefficient Code: A Case Study](https://dev.to/syed_omair/the-hidden-costs-of-inefficient-code-a-case-study-4ka9)
+
 
 **🌟 What I Bring to the Table:**
 * A deep understanding of **scalable system design** and **cloud-native architectures.**
