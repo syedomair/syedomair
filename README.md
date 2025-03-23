@@ -28,14 +28,48 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 
 **🚀 Key Expertise:**
 * **Golang Backend Development:** Proven track record in building scalable microservices with clean architectures, dependency injection, and high concurrency.
-    * [Golang Concurrency Example](https://github.com/syedomair/backend-microservices/blob/main/service/user_service/user/handler.go#L60)
-    * [Golang Dependency Injection Example](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go)
-
 * **ReactJS + Redux Frontend Development:** Expertise in crafting responsive, modular, and maintainable frontend applications.
 * **Concurrency & Performance Optimization:** Skilled in leveraging goroutines, channels, and pprof profiling to build high-performance systems.
 * **Unit & Integration Testing:** Strong advocate for test-driven development (TDD), ensuring robust code quality through detailed unit and integration tests.
-* **Cloud & DevOps:** Proficient in deploying and managing applications on AWS (ECR, ECS) using Docker, Docker Compose, and CI/CD pipelines.
+* **Cloud & DevOps:** Proficient in deploying and managing applications on, Kubernetes, AWS (ECR, ECS) using Docker, Docker Compose, and CI/CD pipelines.
 
+**🛠️ Technical Skills:**
+* **Languages:** Golang, JavaScript (ES6+) 
+* **Databases:** PostgreSQL, MySQL
+* **Frameworks/Libraries:** ReactJS, Redux
+* **Cloud & DevOps:** AWS (ECR, ECS), Kubernetes, Docker, Docker Compose, CI/CD (GitHub Actions, BitBucket Pipelines)
+* **Instrumentation:** pprof profiling, Prometheus, Zap, Grafana 
+* **Testing:** Unit testing, Integration testing
+* **Version Control:** Git, GitHub workflows, BitBucket
+
+**Design Patterns & Architectural Expertise**
+* **Concurrency Pattern:**
+    * Utilized in `service/user_service/user/user_service` to execute multiple database queries and gRPC calls concurrently using Go's `errgroup`.
+    * Enhances the performance of the `GetAllUserStatistics` method by leveraging parallel processing.
+* **Dependency Injection Pattern:**
+    * Utilized in `lib/container/container.go` to manage logging, database connections, and environment variables.
+    * Promotes modularity and flexibility by injecting dependencies into a central container.
+* **Singleton Pattern:**
+    * Implemented in `lib/container/db.go` through synchronized lazy initialization (`sync.Mutex` + instance check) in `PostgresAdapter` and `MySQLAdapter`.
+    * Ensures only one database connection instance is created per adapter while maintaining thread safety.
+* **Adapter Pattern:**
+    * Used in `lib/container/db.go` to create a unified database interface (`Db`) with concrete implementations (`PostgresAdapter` and `MySQLAdapter`).
+    * Enables seamless switching between database providers without modifying client code.
+* **Factory Pattern:**
+    * Utilized in `lib/container/db.go` through the `NewDBConnectionAdapter` function.
+    * Acts as a factory method to create instances of different database adapters based on the specified database type, encapsulating object creation logic.
+* **External Configuration Pattern:**
+    * Utilized in `lib/container/container.go` to manage and validate essential configuration through environment variables.
+    * Ensures centralized and type-safe access to settings, promoting flexibility and ease of deployment.
+* **Decorator Pattern:**
+    * Utilized in `lib/response/response.go` to dynamically add behaviors to response handlers.
+    * Allows setting headers or handling different response types without altering the underlying handler implementation.
+* **Middleware Pattern:**
+    * Utilized in `lib/router/router.go` to chain multiple handlers that add functionalities like logging, request ID management, and Prometheus metrics collection.
+    * Enhances the HTTP request processing pipeline with modular and reusable components.
+* **Object Pool Pattern:**
+    * Implemented in `lib/container/connection.go` to manage a pool of reusable gRPC client connections.
+    * Optimizes resource usage and improves performance by reducing the overhead of repeatedly creating and destroying connections.
 
 **📚 Featured Post on dev.to:**
 * [Improving Performance with Concurrency in Golang: A Case Study](https://dev.to/syed_omair/improving-performance-with-concurrency-in-golang-a-case-study-3dip)
@@ -43,15 +77,6 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 * [Using a Reverse Proxy to Expose Multiple Microservices Through a Single Port in Docker Compose](https://dev.to/syed_omair/using-a-reverse-proxy-to-expose-multiple-microservices-through-a-single-port-in-docker-compose-4h9e)
 * [How to Deploy a Container from GitHub to AWS ECR and ECS through OIDC](https://dev.to/syed_omair/how-to-deploy-a-container-from-github-to-aws-ecr-through-oidc-2ma5)
 * [Understanding Dependency Injection Through a Practical Golang Example](https://dev.to/syed_omair/understanding-dependency-injection-through-a-practical-golang-example-4b3k)
-
-
-**🛠️ Technical Skills:**
-* **Languages:** Golang, JavaScript (ES6+) 
-* **Databases:** PostgreSQL, MySQL
-* **Frameworks/Libraries:** ReactJS, Redux
-* **Cloud & DevOps:** AWS (ECR, ECS), Docker, Docker Compose, CI/CD (GitHub Actions, BitBucket Pipelines)
-* **Testing:** Unit testing, Integration testing, pprof profiling
-* **Version Control:** Git, GitHub workflows, BitBucket
 
 **🌟 What I Bring to the Table:**
 * A deep understanding of **scalable system design** and **cloud-native architectures.**
