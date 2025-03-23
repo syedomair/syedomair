@@ -56,16 +56,16 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
     * Used in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to create a unified database interface (`Db`) with concrete implementations (`PostgresAdapter` and `MySQLAdapter`).
     * Enables seamless switching between database providers without modifying client code.
 * **Factory Pattern:**
-    * Utilized in `lib/container/db.go` through the `NewDBConnectionAdapter` function.
+    * Utilized in [lib/container/db.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/db.go) through the `NewDBConnectionAdapter` function.
     * Acts as a factory method to create instances of different database adapters based on the specified database type, encapsulating object creation logic.
 * **External Configuration Pattern:**
     * Utilized in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to manage and validate essential configuration through environment variables.
     * Ensures centralized and type-safe access to settings, promoting flexibility and ease of deployment.
 * **Decorator Pattern:**
-    * Utilized in `lib/response/response.go` to dynamically add behaviors to response handlers.
+    * Utilized in [lib/response/response.go](https://github.com/syedomair/backend-microservices/blob/main/lib/response/response.go) to dynamically add behaviors to response handlers.
     * Allows setting headers or handling different response types without altering the underlying handler implementation.
 * **Middleware Pattern:**
-    * Utilized in `lib/router/router.go` to chain multiple handlers that add functionalities like logging, request ID management, and Prometheus metrics collection.
+    * Utilized in [lib/router/router.go](https://github.com/syedomair/backend-microservices/blob/main/lib/router/router.go) to chain multiple handlers that add functionalities like logging, request ID management, and Prometheus metrics collection.
     * Enhances the HTTP request processing pipeline with modular and reusable components.
 * **Object Pool Pattern:**
     * Implemented in [lib/container/connection.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/connection.go) to manage a pool of reusable gRPC client connections.
