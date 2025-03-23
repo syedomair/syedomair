@@ -44,10 +44,10 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 
 **Design Patterns & Architectural Expertise**
 * **Concurrency Pattern:**
-    * Utilized in [service/user_service/user/user_service](https://github.com/syedomair/backend-microservices/blob/main/service/user_service/user/user_serivce.go target="_blank") to execute multiple database queries and gRPC calls concurrently using Go's `errgroup`.
+    * Utilized in [service/user_service/user/user_service](https://github.com/syedomair/backend-microservices/blob/main/service/user_service/user/user_serivce.go) to execute multiple database queries and gRPC calls concurrently using Go's `errgroup`.
     * Enhances the performance of the `GetAllUserStatistics` method by leveraging parallel processing.
 * **Dependency Injection Pattern:**
-    * Utilized in <a href="https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go" target="_blank" >lib/container/container.go</a> to manage logging, database connections, and environment variables.
+    * Utilized in [lib/container/container.go](https://github.com/syedomair/backend-microservices/blob/main/lib/container/container.go) to manage logging, database connections, and environment variables.
     * Promotes modularity and flexibility by injecting dependencies into a central container.
 * **Singleton Pattern:**
     * Implemented in `lib/container/db.go` through synchronized lazy initialization (`sync.Mutex` + instance check) in `PostgresAdapter` and `MySQLAdapter`.
