@@ -73,11 +73,13 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 
 **📚 Featured Post on dev.to:**
 * [Improving Performance with Concurrency in Golang: A Case Study](https://dev.to/syed_omair/improving-performance-with-concurrency-in-golang-a-case-study-3dip)
+* [Creating Pods Without Deployment or Service: The Bare-Metal Kubernetes Experience](https://dev.to/syed_omair/creating-pods-without-deployment-or-service-the-bare-metal-kubernetes-experience-4j0n)
 * [The Singleton Pattern in Golang](https://dev.to/syed_omair/the-singleton-pattern-in-golang-29lp)
 * [Using a Reverse Proxy to Expose Multiple Microservices Through a Single Port in Docker Compose](https://dev.to/syed_omair/using-a-reverse-proxy-to-expose-multiple-microservices-through-a-single-port-in-docker-compose-4h9e)
 * [How to Deploy a Container from GitHub to AWS ECR and ECS through OIDC](https://dev.to/syed_omair/how-to-deploy-a-container-from-github-to-aws-ecr-through-oidc-2ma5)
 * [Understanding Dependency Injection Through a Practical Golang Example](https://dev.to/syed_omair/understanding-dependency-injection-through-a-practical-golang-example-4b3k)
 * [The Hidden Costs of Inefficient Code: A Case Study](https://dev.to/syed_omair/the-hidden-costs-of-inefficient-code-a-case-study-4ka9)
+* [Kubernetes Port Forwarding: A Practical Guide with Examples](https://dev.to/syed_omair/kubernetes-port-forwarding-a-practical-guide-with-examples-25o6)
 
 
 **🌟 What I Bring to the Table:**
