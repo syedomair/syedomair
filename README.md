@@ -37,7 +37,7 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 * **Languages:** Golang, JavaScript (ES6+) 
 * **Databases:** PostgreSQL, MySQL
 * **Frameworks/Libraries:** ReactJS, Redux
-* **Cloud & DevOps:** AWS (ECR, ECS), Kubernetes, Docker, Docker Compose, CI/CD (GitHub Actions, BitBucket Pipelines)
+* **Cloud & DevOps:** AWS (ECR, ECS), Kubernetes, Helm, Docker, Docker Compose, CI/CD (GitHub Actions, BitBucket Pipelines)
 * **Instrumentation:** pprof profiling, Prometheus, Zap, Grafana 
 * **Testing:** Unit testing, Integration testing
 * **Version Control:** Git, GitHub workflows, BitBucket
