@@ -22,8 +22,8 @@
 📌 I’m always excited to learn new tools and tackle challenging problems. Let’s connect and build something amazing!
 -->
 
-**Seasoned Full Stack Developer | 20+ Years of Experience**
-Specializing in **high-performance backend systems** using **Golang** and **frontend systems** using **ReactJS + Redux** on **AWS cloud-native architectures.**
+**Seasoned Full Stack Developer | 27+ Years of Experience**
+Specializing in **high-performance backend systems** using **Golang** on **Kubernetes and AWS cloud-native architectures.**
 
 
 **🚀 Key Expertise:**
@@ -31,7 +31,7 @@ Specializing in **high-performance backend systems** using **Golang** and **fron
 * **ReactJS + Redux Frontend Development:** Expertise in crafting responsive, modular, and maintainable frontend applications.
 * **Concurrency & Performance Optimization:** Skilled in leveraging goroutines, channels, and pprof profiling to build high-performance systems.
 * **Unit & Integration Testing:** Strong advocate for test-driven development (TDD), ensuring robust code quality through detailed unit and integration tests.
-* **Cloud & DevOps:** Proficient in deploying and managing applications on, Kubernetes, AWS (ECR, ECS) using Docker, Docker Compose, and CI/CD pipelines.
+* **Cloud & DevOps:** Proficient in deploying and managing applications on, Kubernetes, Helm, AWS (ECR, ECS) using Docker, Docker Compose, and CI/CD pipelines.
 
 **🛠️ Technical Skills:**
 * **Languages:** Golang, JavaScript (ES6+) 
